@@ -29,7 +29,7 @@ export const PostList = ({ posts }: Props) => {
             {post.description}
           </Text>
           <Link href={`/post/${post.id}`}>
-            <Button colorScheme="teal" variant="outline" size="sm" mt="8">
+            <Button colorScheme="blue" variant="outline" size="sm" mt="8">
               続きを読む
             </Button>
           </Link>
